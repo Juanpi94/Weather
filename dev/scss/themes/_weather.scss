@@ -1,0 +1,40 @@
+@use '../utils/vars' as v;
+
+.card-weather{
+    padding: 2rem;
+    width: 100%;
+    color: v.$clr-white;
+    border-radius: 1rem;
+}
+
+.bg-cold{
+    background-color:v.$clr-cold;
+}
+.bg-ligth-warm{
+    background-color:v.$clr-ligth-warm;
+}
+.bg-warm{
+    background-color:v.$clr-warm;
+}
+.bg-hot{
+    background-color:v.$clr-hot;
+}
+.bg-very-hot{
+    background-color:v.$clr-very-hot;
+}
+.bg-are-you-ok{
+    background-color:v.$clr-are-you-ok;
+}
+
+.head-weather{
+    font-family:v.$ff-principal;
+    color:v.$clr-white;
+    
+    h1{
+    font-size: 60px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+}
